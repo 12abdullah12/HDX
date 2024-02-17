@@ -14,7 +14,8 @@ html {
 .hero {
   color: rgba(0, 0, 0, 0.881);
 }
-nav {
+
+img nav {
   display: flex;
   justify-content: right;
   justify-content: space-between;
@@ -29,20 +30,22 @@ nav ul li {
 
   display: inline-block;
   padding: 20px 20px;
+  font-size: 20px;
 }
 span {
   color: #0e0a02;
 }
 
 nav ul li:hover {
-  align-items: ;
   color: rgb(235, 13, 13);
+  border-bottom: 2px solid red;
   transition: 0.3s;
   cursor: pointer;
 }
 
 .content {
   display: flex;
+  flex-direction: column;
   text-emphasis: bold;
   position: absolute;
   top: 40%;
@@ -61,13 +64,26 @@ h4 {
   font-weight: heiver;
   color: #182028;
 }
-. {
+/* .{
   font-size: small;
   font-weight: 300;
-}
+} */
 image {
   padding-top: 10px;
   padding-left: 8px;
   padding-right: 14px;
   padding-bottom: auto;
+}
+
+.bottom-nav {
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+}
+.bottom-nav button {
+  padding: 10px;
+  outline: none;
+  background: transparent;
+  border-left: 0px solid transparent;
+  margin-top: 20px;
 }
